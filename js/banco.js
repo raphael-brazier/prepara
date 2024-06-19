@@ -27,7 +27,7 @@ document
       .then((data) => {
         console.log("Success:", data);
         // Redirecionar o usuário após o envio bem-sucedido
-        window.location.href = "http://127.0.0.1:5500/enviadoSucess.html";
+        window.location.href = "/enviadoSucess.html";
       })
       .catch((error) => {
         console.error("Error:", error);
